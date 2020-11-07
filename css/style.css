@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Kanit', sans-serif !important;
+}
+
+.carousel{
+    background: #fff;
+    margin-top: 20px;
+    height: 400px;
+    overflow: hidden;
+}
+.carousel-item{
+    text-align: center;
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+
+.bg-1 {
+    background-image: url('../img/slide1.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    height: 700px;
+}
+
+.bg-green {
+    background-color: #91c019 !important;
+}
